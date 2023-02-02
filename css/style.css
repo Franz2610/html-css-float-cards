@@ -1,0 +1,25 @@
+/* general*/
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+:root{
+    --title: #E34A9C;
+    --bground: #ffffff;
+    --mail: #2388BB;
+    --color: #000000;
+}
+body{
+    background: var(--bground);
+    color: var(--color);
+    font-family: 'Fredoka', sans-serif;
+}
+h1{
+    color: var(--title)
+}
